@@ -1,0 +1,1 @@
+import-csv "./demo.csv" | where-object {$_.owner -eq "russellsmith"}
